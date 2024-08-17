@@ -1,0 +1,9 @@
+@PIToolsBackend_HostAddress = http://localhost:5248
+
+GET {{PIToolsBackend_HostAddress}}/api/get/playerscore?qq=2928601533
+Accept: application/json
+
+###
+
+GET {{PIToolsBackend_HostAddress}}/api/get/scenarios
+Accept: application/json
