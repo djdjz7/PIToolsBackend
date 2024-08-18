@@ -5,5 +5,15 @@ Accept: application/json
 
 ###
 
-GET {{PIToolsBackend_HostAddress}}/api/get/scenarios
+GET {{PIToolsBackend_HostAddress}}/api/get/scenarios/all
 Accept: application/json
+
+###
+GET {{PIToolsBackend_HostAddress}}/api/get/scenarios/random
+Accept: application/json
+
+###
+GET {{PIToolsBackend_HostAddress}}/api/get/scenarios/scores?id=1
+
+###
+GET {{PIToolsBackend_HostAddress}}/api/get/packages/all
